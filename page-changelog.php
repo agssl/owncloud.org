@@ -12,76 +12,6 @@ Go directly to the latest maintenance release of:
 <li><a href="#latest6">ownCloud 6 (unsupported!)</a></li>
 </ul>
 
-<a name="latest8.2"></a>
-<h3>Version 8.2.6 <small>June 30 2016</small></h3>
-<ul>
-<ul>Fix oc_appconfig fetching performance <a href="https://github.com/owncloud/core/issues/25226">core/#25226</a></ul>
-<ul>Wrong file size for encrypted file when reverting version <a href="https://github.com/owncloud/core/issues/23928">core/#23928</a></ul>
-<ul>Fix app loading order to looad authentication apps first, fixes mail app issue <a href="https://github.com/owncloud/core/issues/25126">core/#25126</a></ul>
-<ul>Fix occ files:scan locking issue with shared folder <a href="https://github.com/owncloud/core/issues/24507">core/#24507</a></ul>
-<ul>Fix quota update after moving files to shared folder in webinterface <a href="https://github.com/owncloud/core/issues/21236">core/#21236</a></ul>
-<ul>Show a proper error message when handle "storage not available" situations <a href="https://github.com/owncloud/core/issues/25037">core/#25037</a></ul>
-<ul>Fix cron job error related to versions <a href="https://github.com/owncloud/core/issues/22450">core/#22450</a></ul>
-<ul>Fix thumbnail download issue with external storage due to inaccurate path handling <a href="https://github.com/owncloud/core/issues/21173">core/#21173</a></ul>
-<ul>Capped cache for the user/group cache <a href="https://github.com/owncloud/core/issues/24958">core/#24958</a></ul>
-<ul>Capped cache for normalized paths <a href="https://github.com/owncloud/core/issues/24340">core/#24340</a></ul>
-<ul>Fix 'lost_password_link' from config.php that did not work as expected <a href="https://github.com/owncloud/core/issues/24789">core/#24789</a></ul>
-<ul>Fix IApacheBackend issue due to wrong initialization order <a href="https://github.com/owncloud/core/issues/23899">core/#23899</a></ul>
-<ul>Fix SSO + master key encryption issue due to wrong initialization order <a href="https://github.com/owncloud/core/issues/24182">core/#24182</a></ul>
-<ul>Read available l10n files also from theme folder <a href="https://github.com/owncloud/core/issues/23571">core/#23571</a></ul>
-<ul>Propagate size changes when running files:scan with explicit path <a href="https://github.com/owncloud/core/issues/24271">core/#24271</a></ul>
-<ul>Fix performance for isLocal in SharedStorage <a href="https://github.com/owncloud/core/issues/24651">core/#24651</a></ul>
-<ul>Clarify filesystem_check_changes in config.sample.php <a href="https://github.com/owncloud/core/issues/24817">core/#24817</a></ul>
-<ul>Free up memory when releasing the last shared lock <a href="https://github.com/owncloud/core/issues/24704">core/#24704</a></ul>
-<ul>Fix issue with chunks that got cleared too early <a href="https://github.com/owncloud/core/issues/24653">core/#24653</a></ul>
-<ul>Fix federated share checkboxes to correctly display disabled state <a href="https://github.com/owncloud/core/issues/24547">core/#24547</a></ul>
-<ul>LDAP: do not attempt to process user records without display name <a href="https://github.com/owncloud/core/issues/20804">core/#20804</a></ul>
-<ul>Updater server URL can now be specified in config.php <a href="https://github.com/owncloud/core/issues/24500">core/#24500</a></ul>
-<ul>Remove "en@pirate" locale which caused issues <a href="https://github.com/owncloud/core/issues/24545">core/#24545</a></ul>
-<ul>Added warning in admin page when using unsupported transaction mode <a href="https://github.com/owncloud/core/issues/24889">core/#24889</a></ul>
-<ul>Don't update search onResize <a href="https://github.com/owncloud/core/issues/24682">core/#24682</a></ul>
-<ul>Gallery: tokens are too loose <a href="https://github.com/owncloud/gallery/issues/669">gallery/#669</a></ul>
-</ul>
-Download: <a href="https://download.owncloud.org/community/owncloud-8.2.6.tar.bz2">owncloud-8.2.6.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-8.2.6.zip">owncloud-8.2.6.zip</a></br>
-MD5: <a href="https://download.owncloud.org/community/owncloud-8.2.6.tar.bz2.md5">owncloud-8.2.6.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-8.2.6.zip.md5">owncloud-8.2.6.zip.md5</a></br>
-SHA256: <a href="https://download.owncloud.org/community/owncloud-8.2.6.tar.bz2.sha256">owncloud-8.2.6.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-8.2.6.zip.sha256">owncloud-8.2.6.zip.sha256</a></br>
-PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-8.2.6.tar.bz2.asc">owncloud-8.2.6.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-8.2.6.zip.asc">owncloud-8.2.6.zip.asc</a></br>
-Packages on our Build Service: <a href="https://download.owncloud.org/download/repositories/8.2/owncloud">8.2 Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.
-
-<a name="latest8.1"></a>
-<h3>Version 8.1.8 <small>May 13 2016</small></h3>
-<ul>
-	<li>Addressed XSS issues in the files_videoviewer app</li>
-</ul>
-Download: <a href="https://download.owncloud.org/community/owncloud-8.1.8.tar.bz2">owncloud-8.1.8.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-8.1.8.zip">owncloud-8.1.8.zip</a></br>
-MD5: <a href="https://download.owncloud.org/community/owncloud-8.1.8.tar.bz2.md5">owncloud-8.1.8.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-8.1.8.zip.md5">owncloud-8.1.8.zip.md5</a></br>
-SHA256: <a href="https://download.owncloud.org/community/owncloud-8.1.8.tar.bz2.sha256">owncloud-8.1.8.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-8.1.8.zip.sha256">owncloud-8.1.8.zip.sha256</a></br>
-PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-8.1.8.tar.bz2.asc">owncloud-8.1.8.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-8.1.8.zip.asc">owncloud-8.1.8.zip.asc</a></br>
-Packages on our Build Service: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:8.1&package=owncloud">8.1 Release Channel</a>, <a href="https://download.owncloud.org/download/repositories/stable/owncloud">Stable Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.
-
-<a name="latest8.0"></a>
-<h3>Version 8.0.13 <small>May 13 2016</small></h3>
-<ul>
-	<li>Addressed XSS issues in the files_videoviewer app</li>
-</ul>
-Download: <a href="https://download.owncloud.org/community/owncloud-8.0.13.tar.bz2">owncloud-8.0.13.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-8.0.13.zip">owncloud-8.0.13.zip</a></br>
-MD5: <a href="https://download.owncloud.org/community/owncloud-8.0.13.tar.bz2.md5">owncloud-8.0.13.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-8.0.13.zip.md5">owncloud-8.0.13.zip.md5</a></br>
-SHA256: <a href="https://download.owncloud.org/community/owncloud-8.0.13.tar.bz2.sha256">owncloud-8.0.13.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-8.0.13.zip.sha256">owncloud-8.0.13.zip.sha256</a></br>
-PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-8.0.13.tar.bz2.asc">owncloud-8.0.13.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-8.0.13.zip.asc">owncloud-8.0.13.zip.asc</a></br>
-Packages on our Build Service: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:8.0&package=owncloud">8.0 Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.
-
-<a name="latest7"></a>
-<h3>Version 7.0.15 <small>May 13 2016</small></h3>
-<ul>
-	<li>Addressed XSS issues in the files_videoviewer app</li>
-</ul>
-Download: <a href="https://download.owncloud.org/community/owncloud-7.0.15.tar.bz2">owncloud-7.0.15.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-7.0.15.zip">owncloud-7.0.15.zip</a></br>
-MD5: <a href="https://download.owncloud.org/community/owncloud-7.0.15.tar.bz2.md5">owncloud-7.0.15.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-7.0.15.zip.md5">owncloud-7.0.15.zip.md5</a></br>
-SHA256: <a href="https://download.owncloud.org/community/owncloud-7.0.15.tar.bz2.sha256">owncloud-7.0.15.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-7.0.15.zip.sha256">owncloud-7.0.15.zip.sha256</a></br>
-PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-7.0.15.tar.bz2.asc">owncloud-7.0.15.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-7.0.15.zip.asc">owncloud-7.0.15.zip.asc</a></br>
-<p>Packages on our Build Service: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:7.0&package=owncloud">7.0 Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.</p>
-<p><strong>Note</strong> that this is the last ownCloud 7.0 update and you should upgrade as soon as possible to ownCloud 8.0 or newer to ensure the security and safety of your data.</p>
-
 <a name="latest9.0"></a>
 
 <h3>Version 9.0.3 <small>Jun 30 2016</small></h3>
@@ -157,6 +87,76 @@ MD5: <a href="https://download.owncloud.org/community/owncloud-9.0.3.tar.bz2.md5
 SHA256: <a href="https://download.owncloud.org/community/owncloud-9.0.3.tar.bz2.sha256">owncloud-9.0.3.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-9.0.3.zip.sha256">owncloud-9.0.3.zip.sha256</a></br>
 PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-9.0.3.tar.bz2.asc">owncloud-9.0.3.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-9.0.3.zip.asc">owncloud-9.0.3.zip.asc</a></br>
 Packages on our Build Service: <a href="https://download.owncloud.org/download/repositories/9.0/owncloud">9.0 Release Channel</a> and <a href="https://download.owncloud.org/download/repositories/stable/owncloud/">Stable Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.
+
+<a name="latest8.2"></a>
+<h3>Version 8.2.6 <small>June 30 2016</small></h3>
+<ul>
+<ul>Fix oc_appconfig fetching performance <a href="https://github.com/owncloud/core/issues/25226">core/#25226</a></ul>
+<ul>Wrong file size for encrypted file when reverting version <a href="https://github.com/owncloud/core/issues/23928">core/#23928</a></ul>
+<ul>Fix app loading order to looad authentication apps first, fixes mail app issue <a href="https://github.com/owncloud/core/issues/25126">core/#25126</a></ul>
+<ul>Fix occ files:scan locking issue with shared folder <a href="https://github.com/owncloud/core/issues/24507">core/#24507</a></ul>
+<ul>Fix quota update after moving files to shared folder in webinterface <a href="https://github.com/owncloud/core/issues/21236">core/#21236</a></ul>
+<ul>Show a proper error message when handle "storage not available" situations <a href="https://github.com/owncloud/core/issues/25037">core/#25037</a></ul>
+<ul>Fix cron job error related to versions <a href="https://github.com/owncloud/core/issues/22450">core/#22450</a></ul>
+<ul>Fix thumbnail download issue with external storage due to inaccurate path handling <a href="https://github.com/owncloud/core/issues/21173">core/#21173</a></ul>
+<ul>Capped cache for the user/group cache <a href="https://github.com/owncloud/core/issues/24958">core/#24958</a></ul>
+<ul>Capped cache for normalized paths <a href="https://github.com/owncloud/core/issues/24340">core/#24340</a></ul>
+<ul>Fix 'lost_password_link' from config.php that did not work as expected <a href="https://github.com/owncloud/core/issues/24789">core/#24789</a></ul>
+<ul>Fix IApacheBackend issue due to wrong initialization order <a href="https://github.com/owncloud/core/issues/23899">core/#23899</a></ul>
+<ul>Fix SSO + master key encryption issue due to wrong initialization order <a href="https://github.com/owncloud/core/issues/24182">core/#24182</a></ul>
+<ul>Read available l10n files also from theme folder <a href="https://github.com/owncloud/core/issues/23571">core/#23571</a></ul>
+<ul>Propagate size changes when running files:scan with explicit path <a href="https://github.com/owncloud/core/issues/24271">core/#24271</a></ul>
+<ul>Fix performance for isLocal in SharedStorage <a href="https://github.com/owncloud/core/issues/24651">core/#24651</a></ul>
+<ul>Clarify filesystem_check_changes in config.sample.php <a href="https://github.com/owncloud/core/issues/24817">core/#24817</a></ul>
+<ul>Free up memory when releasing the last shared lock <a href="https://github.com/owncloud/core/issues/24704">core/#24704</a></ul>
+<ul>Fix issue with chunks that got cleared too early <a href="https://github.com/owncloud/core/issues/24653">core/#24653</a></ul>
+<ul>Fix federated share checkboxes to correctly display disabled state <a href="https://github.com/owncloud/core/issues/24547">core/#24547</a></ul>
+<ul>LDAP: do not attempt to process user records without display name <a href="https://github.com/owncloud/core/issues/20804">core/#20804</a></ul>
+<ul>Updater server URL can now be specified in config.php <a href="https://github.com/owncloud/core/issues/24500">core/#24500</a></ul>
+<ul>Remove "en@pirate" locale which caused issues <a href="https://github.com/owncloud/core/issues/24545">core/#24545</a></ul>
+<ul>Added warning in admin page when using unsupported transaction mode <a href="https://github.com/owncloud/core/issues/24889">core/#24889</a></ul>
+<ul>Don't update search onResize <a href="https://github.com/owncloud/core/issues/24682">core/#24682</a></ul>
+<ul>Gallery: tokens are too loose <a href="https://github.com/owncloud/gallery/issues/669">gallery/#669</a></ul>
+</ul>
+Download: <a href="https://download.owncloud.org/community/owncloud-8.2.6.tar.bz2">owncloud-8.2.6.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-8.2.6.zip">owncloud-8.2.6.zip</a></br>
+MD5: <a href="https://download.owncloud.org/community/owncloud-8.2.6.tar.bz2.md5">owncloud-8.2.6.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-8.2.6.zip.md5">owncloud-8.2.6.zip.md5</a></br>
+SHA256: <a href="https://download.owncloud.org/community/owncloud-8.2.6.tar.bz2.sha256">owncloud-8.2.6.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-8.2.6.zip.sha256">owncloud-8.2.6.zip.sha256</a></br>
+PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-8.2.6.tar.bz2.asc">owncloud-8.2.6.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-8.2.6.zip.asc">owncloud-8.2.6.zip.asc</a></br>
+Packages on our Build Service: <a href="https://download.owncloud.org/download/repositories/8.2/owncloud">8.2 Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.
+
+<a name="latest8.1"></a>
+<h3>Version 8.1.8 <small>May 13 2016</small></h3>
+<ul>
+	<li>Addressed XSS issues in the files_videoviewer app</li>
+</ul>
+Download: <a href="https://download.owncloud.org/community/owncloud-8.1.8.tar.bz2">owncloud-8.1.8.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-8.1.8.zip">owncloud-8.1.8.zip</a></br>
+MD5: <a href="https://download.owncloud.org/community/owncloud-8.1.8.tar.bz2.md5">owncloud-8.1.8.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-8.1.8.zip.md5">owncloud-8.1.8.zip.md5</a></br>
+SHA256: <a href="https://download.owncloud.org/community/owncloud-8.1.8.tar.bz2.sha256">owncloud-8.1.8.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-8.1.8.zip.sha256">owncloud-8.1.8.zip.sha256</a></br>
+PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-8.1.8.tar.bz2.asc">owncloud-8.1.8.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-8.1.8.zip.asc">owncloud-8.1.8.zip.asc</a></br>
+Packages on our Build Service: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:8.1&package=owncloud">8.1 Release Channel</a>, <a href="https://download.owncloud.org/download/repositories/stable/owncloud">Stable Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.
+
+<a name="latest8.0"></a>
+<h3>Version 8.0.13 <small>May 13 2016</small></h3>
+<ul>
+	<li>Addressed XSS issues in the files_videoviewer app</li>
+</ul>
+Download: <a href="https://download.owncloud.org/community/owncloud-8.0.13.tar.bz2">owncloud-8.0.13.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-8.0.13.zip">owncloud-8.0.13.zip</a></br>
+MD5: <a href="https://download.owncloud.org/community/owncloud-8.0.13.tar.bz2.md5">owncloud-8.0.13.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-8.0.13.zip.md5">owncloud-8.0.13.zip.md5</a></br>
+SHA256: <a href="https://download.owncloud.org/community/owncloud-8.0.13.tar.bz2.sha256">owncloud-8.0.13.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-8.0.13.zip.sha256">owncloud-8.0.13.zip.sha256</a></br>
+PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-8.0.13.tar.bz2.asc">owncloud-8.0.13.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-8.0.13.zip.asc">owncloud-8.0.13.zip.asc</a></br>
+Packages on our Build Service: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:8.0&package=owncloud">8.0 Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.
+
+<a name="latest7"></a>
+<h3>Version 7.0.15 <small>May 13 2016</small></h3>
+<ul>
+	<li>Addressed XSS issues in the files_videoviewer app</li>
+</ul>
+Download: <a href="https://download.owncloud.org/community/owncloud-7.0.15.tar.bz2">owncloud-7.0.15.tar.bz2</a> or <a href="https://download.owncloud.org/community/owncloud-7.0.15.zip">owncloud-7.0.15.zip</a></br>
+MD5: <a href="https://download.owncloud.org/community/owncloud-7.0.15.tar.bz2.md5">owncloud-7.0.15.tar.bz2.md5</a> or <a href="https://download.owncloud.org/community/owncloud-7.0.15.zip.md5">owncloud-7.0.15.zip.md5</a></br>
+SHA256: <a href="https://download.owncloud.org/community/owncloud-7.0.15.tar.bz2.sha256">owncloud-7.0.15.tar.bz2.sha256</a> or <a href="https://download.owncloud.org/community/owncloud-7.0.15.zip.sha256">owncloud-7.0.15.zip.sha256</a></br>
+PGP (<a href="https://owncloud.org/owncloud.asc">Key</a>): <a href="https://download.owncloud.org/community/owncloud-7.0.15.tar.bz2.asc">owncloud-7.0.15.tar.bz2.asc</a> or <a href="https://download.owncloud.org/community/owncloud-7.0.15.zip.asc">owncloud-7.0.15.zip.asc</a></br>
+<p>Packages on our Build Service: <a href="http://software.opensuse.org/download/package?project=isv:ownCloud:community:7.0&package=owncloud">7.0 Release Channel</a>. Learn more about <a href="/release-channels">Release Channels</a>.</p>
+<p><strong>Note</strong> that this is the last ownCloud 7.0 update and you should upgrade as soon as possible to ownCloud 8.0 or newer to ensure the security and safety of your data.</p>
 
 <h3>Version 9.0.2 <small>May 4 2016</small></h3>
 <ul>
